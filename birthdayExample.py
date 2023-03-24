@@ -18,7 +18,7 @@ import json
 # pathToFile = "./birthday/birthday.json"
 
 # full path to file
-pathToFile = "C:\Users\alexm\OneDrive\Documents\CIS-24 PYTHON\LupitasLookupApp"
+pathToFile = "C:/Users/alexm/OneDrive/Documents/CIS-24 PYTHON/LupitasLookupApp/birthday.json"
 
 # try to open a file and throw a error if it is not found
 try:
