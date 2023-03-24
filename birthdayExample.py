@@ -18,7 +18,7 @@ import json
 # pathToFile = "./birthday/birthday.json"
 
 # full path to file
-pathToFile = "C:/Users/jerom/Documents/GitHub/class-python/birthday/birthday.json"
+pathToFile = "C:\Users\alexm\OneDrive\Documents\CIS-24 PYTHON\LupitasLookupApp"
 
 
 # try to open a file and throw a error if it is not found
@@ -49,7 +49,7 @@ for elem in birthdayList:
 
 
 # to print a value in the dictionary by giving it a string with the name as the key
-print("Jocelyn Jones's birthday is: " + birthdayDictionary["Jocelyn Jones"])
+
 
 # to get user input
 name = input("Enter a name:")
