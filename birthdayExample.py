@@ -38,3 +38,5 @@ print(user_in)
 for dict in birthdayList:
     if dict["name"] == user_in:
         print(dict["birthday"])
+    else:
+        print("No student found")
