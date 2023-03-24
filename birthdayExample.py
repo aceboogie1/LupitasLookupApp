@@ -20,7 +20,6 @@ import json
 # full path to file
 pathToFile = "C:\Users\alexm\OneDrive\Documents\CIS-24 PYTHON\LupitasLookupApp"
 
-
 # try to open a file and throw a error if it is not found
 try:
     jsonFile = open(pathToFile, 'r')
@@ -32,25 +31,10 @@ except OSError:
 # read the whole json file into a variable
 birthdayList = json.load(jsonFile)
 
-# create an empty dictionary
-birthdayDictionary = {}
 
-# loop json list of data and put each name and birthday into a dictionary
-for elem in birthdayList:
+user_in=input("Who's birthday are you looking for?")
+print(user_in)
 
-    # fetch name and birthday
-    name = elem["name"]
-    birthday = elem["birthday"]
-
-    print("name = " + name)
-    print("birthday = " + birthday)
-
-    birthdayDictionary[name] = birthday
-
-
-# to print a value in the dictionary by giving it a string with the name as the key
-
-
-# to get user input
-name = input("Enter a name:")
-print("name = " + name)
+for dict in birthdayList:
+    if dict["name"] == user_in:
+        print(dict["birthday"])
