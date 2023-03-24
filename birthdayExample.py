@@ -39,4 +39,4 @@ for dict in birthdayList:
     if dict["name"] == user_in:
         print(dict["birthday"])
     else:
-        print("No Student")
+        print("No Student Found")
