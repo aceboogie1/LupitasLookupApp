@@ -5,7 +5,7 @@ import json
 #
 # this is a relative path to the .json data file
 # you can also use a "full" or "absolute path" to the file
-# windows and mac paths are different.  You should google and youttube to learn about paths if you are
+# windows and mac paths are different.  You should google and youtube to learn about paths if you are
 # not familiar with them.  They are important fundamental computer concepts.
 #
 # this is a full windows path, note the forward slashes "/" used in python
